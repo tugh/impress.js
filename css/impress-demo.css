@@ -28,6 +28,7 @@
     doesn't do any harm and gives us a fresh start.
 */
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,6 +48,16 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+    font-family: 'otkur chiwer','Alpida Unicode System', 'UKIJ Tuz Tom', 'Helvetica',Arial;
+	
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -82,7 +93,7 @@ table {
     want to leave anybody behind.
 */
 body {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'otkur chiwer','Alpida Unicode System', 'UKIJ Tuz Tom', 'Helvetica',Arial;
     min-height: 740px;
 
     background: rgb(215, 215, 215);
@@ -137,7 +148,7 @@ a:focus {
 */
 
 .fallback-message {
-    font-family: sans-serif;
+    font-family: 'Alpida Unicode System', 'UKIJ Tuz Tom', 'Helvetica',Arial;
     line-height: 1.3;
 
     width: 780px;
@@ -175,9 +186,11 @@ a:focus {
     -o-box-sizing:      border-box;
     box-sizing:         border-box;
 
-    font-family: 'PT Serif', georgia, serif;
+    font-family: 'otkur chiwer','Alpida Unicode System', 'UKIJ Tuz Tom', 'Helvetica',Arial;
     font-size: 48px;
     line-height: 1.5;
+	
+	direction:rtl;
 }
 
 /*
@@ -221,7 +234,7 @@ a:focus {
     color: rgb(102, 102, 102);
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
 
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: 'otkur chiwer','Alpida Unicode System', 'UKIJ Tuz Tom', 'Helvetica',Arial;
     font-size: 30px;
     line-height: 36px;
     letter-spacing: -1px;
